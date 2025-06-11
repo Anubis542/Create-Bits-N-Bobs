@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.COPPER_CABLE.get());
                       output.accept(ModBlocks.IRON_CABLE.get());
 
+                      output.accept(ModItems.CHISEL.get());
 
                     }).build());
 
