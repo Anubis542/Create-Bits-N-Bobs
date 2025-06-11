@@ -1,4 +1,4 @@
-package com.Anubis542.Create_Bits_N_Bobs.Item;
+package com.Anubis542.Create_Bits_N_Bobs.item;
 
 import com.Anubis542.Create_Bits_N_Bobs.CreateBitsNBobs;
 import com.Anubis542.Create_Bits_N_Bobs.block.ModBlocks;
@@ -15,13 +15,14 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateBitsNBobs.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CREATE_BITS_N_BOBS_TAB = CREATIVE_MODE_TABS.register("create_bits_n_bobs_tab",
-            ()-> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COPPER_WIRE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COPPER_WIRE.get()))
                     .title(Component.translatable("creativetab.createbitsnbobs.create_bits_n_bobs_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                       output.accept(ModItems.COPPER_WIRE.get());
                       output.accept(ModItems.IRON_WIRE.get());
                       output.accept(ModBlocks.COPPER_CABLE.get());
                       output.accept(ModBlocks.IRON_CABLE.get());
+
 
                     }).build());
 

@@ -1,7 +1,7 @@
 package com.Anubis542.Create_Bits_N_Bobs.block;
 
 import com.Anubis542.Create_Bits_N_Bobs.CreateBitsNBobs;
-import com.Anubis542.Create_Bits_N_Bobs.Item.ModItems;
+import com.Anubis542.Create_Bits_N_Bobs.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

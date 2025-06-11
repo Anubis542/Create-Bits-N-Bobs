@@ -1,7 +1,7 @@
 package com.Anubis542.Create_Bits_N_Bobs;
 
-import com.Anubis542.Create_Bits_N_Bobs.Item.ModCreativeModeTabs;
-import com.Anubis542.Create_Bits_N_Bobs.Item.ModItems;
+import com.Anubis542.Create_Bits_N_Bobs.item.ModCreativeModeTabs;
+import com.Anubis542.Create_Bits_N_Bobs.item.ModItems;
 import com.Anubis542.Create_Bits_N_Bobs.block.ModBlocks;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;

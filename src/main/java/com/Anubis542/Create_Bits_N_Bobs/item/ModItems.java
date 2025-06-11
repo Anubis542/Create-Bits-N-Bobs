@@ -1,4 +1,4 @@
-package com.Anubis542.Create_Bits_N_Bobs.Item;
+package com.Anubis542.Create_Bits_N_Bobs.item;
 
 import com.Anubis542.Create_Bits_N_Bobs.CreateBitsNBobs;
 import net.minecraft.world.item.Item;
